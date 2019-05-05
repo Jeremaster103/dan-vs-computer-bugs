@@ -15,6 +15,16 @@
 		AE6465192266AD950098A8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6465172266AD950098A8D9 /* Main.storyboard */; };
 		AE64651B2266AD960098A8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE64651A2266AD960098A8D9 /* Assets.xcassets */; };
 		AE64651E2266AD960098A8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE64651C2266AD960098A8D9 /* LaunchScreen.storyboard */; };
+		AE64652C2266AE7C0098A8D9 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64652B2266AE7C0098A8D9 /* Enemy.swift */; };
+		AE64652F2266AED00098A8D9 /* POL-galactic-trek-short.wav in Resources */ = {isa = PBXBuildFile; fileRef = AE64652E2266AED00098A8D9 /* POL-galactic-trek-short.wav */; };
+		AE6465312266AEFA0098A8D9 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6465302266AEFA0098A8D9 /* GameOverScene.swift */; };
+		AEC3063C227A4FDA00484F1B /* GamePhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC3063B227A4FDA00484F1B /* GamePhysics.swift */; };
+		AEC3063E227AA3A000484F1B /* Powerups.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC3063D227AA3A000484F1B /* Powerups.swift */; };
+		AEC30640227AAD1800484F1B /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = AEC3063F227AAD1800484F1B /* bell.wav */; };
+		AEC30642227AB02700484F1B /* Fast Ace.wav in Resources */ = {isa = PBXBuildFile; fileRef = AEC30641227AB02700484F1B /* Fast Ace.wav */; };
+		AEC30644227AB02D00484F1B /* Androids.wav in Resources */ = {isa = PBXBuildFile; fileRef = AEC30643227AB02D00484F1B /* Androids.wav */; };
+		AEC30646227AB58400484F1B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC30645227AB58400484F1B /* MenuScene.swift */; };
+		AEDA8947227E78D300DCFD19 /* Cal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEDA8946227E78D300DCFD19 /* Cal.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,16 @@
 		AE64651A2266AD960098A8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE64651D2266AD960098A8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE64651F2266AD960098A8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE64652B2266AE7C0098A8D9 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		AE64652E2266AED00098A8D9 /* POL-galactic-trek-short.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "POL-galactic-trek-short.wav"; sourceTree = "<group>"; };
+		AE6465302266AEFA0098A8D9 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		AEC3063B227A4FDA00484F1B /* GamePhysics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePhysics.swift; sourceTree = "<group>"; };
+		AEC3063D227AA3A000484F1B /* Powerups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerups.swift; sourceTree = "<group>"; };
+		AEC3063F227AAD1800484F1B /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
+		AEC30641227AB02700484F1B /* Fast Ace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fast Ace.wav"; sourceTree = "<group>"; };
+		AEC30643227AB02D00484F1B /* Androids.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Androids.wav; sourceTree = "<group>"; };
+		AEC30645227AB58400484F1B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		AEDA8946227E78D300DCFD19 /* Cal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cal.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +80,35 @@
 		AE64650C2266AD950098A8D9 /* DanVsComputerBugs */ = {
 			isa = PBXGroup;
 			children = (
+				AE64652D2266AEBF0098A8D9 /* Sounds */,
 				AE64650D2266AD950098A8D9 /* AppDelegate.swift */,
 				AE64650F2266AD950098A8D9 /* GameScene.sks */,
 				AE6465112266AD950098A8D9 /* Actions.sks */,
 				AE6465132266AD950098A8D9 /* GameScene.swift */,
+				AEC3063B227A4FDA00484F1B /* GamePhysics.swift */,
 				AE6465152266AD950098A8D9 /* GameViewController.swift */,
 				AE6465172266AD950098A8D9 /* Main.storyboard */,
+				AE64652B2266AE7C0098A8D9 /* Enemy.swift */,
 				AE64651A2266AD960098A8D9 /* Assets.xcassets */,
 				AE64651C2266AD960098A8D9 /* LaunchScreen.storyboard */,
 				AE64651F2266AD960098A8D9 /* Info.plist */,
+				AE6465302266AEFA0098A8D9 /* GameOverScene.swift */,
+				AEC3063D227AA3A000484F1B /* Powerups.swift */,
+				AEC30645227AB58400484F1B /* MenuScene.swift */,
 			);
 			path = DanVsComputerBugs;
+			sourceTree = "<group>";
+		};
+		AE64652D2266AEBF0098A8D9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AEDA8946227E78D300DCFD19 /* Cal.mp3 */,
+				AEC30643227AB02D00484F1B /* Androids.wav */,
+				AEC30641227AB02700484F1B /* Fast Ace.wav */,
+				AEC3063F227AAD1800484F1B /* bell.wav */,
+				AE64652E2266AED00098A8D9 /* POL-galactic-trek-short.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +170,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6465192266AD950098A8D9 /* Main.storyboard in Resources */,
+				AEDA8947227E78D300DCFD19 /* Cal.mp3 in Resources */,
+				AE64652F2266AED00098A8D9 /* POL-galactic-trek-short.wav in Resources */,
+				AEC30640227AAD1800484F1B /* bell.wav in Resources */,
 				AE6465102266AD950098A8D9 /* GameScene.sks in Resources */,
 				AE64651B2266AD960098A8D9 /* Assets.xcassets in Resources */,
 				AE64651E2266AD960098A8D9 /* LaunchScreen.storyboard in Resources */,
 				AE6465122266AD950098A8D9 /* Actions.sks in Resources */,
+				AEC30642227AB02700484F1B /* Fast Ace.wav in Resources */,
+				AEC30644227AB02D00484F1B /* Androids.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6465312266AEFA0098A8D9 /* GameOverScene.swift in Sources */,
+				AE64652C2266AE7C0098A8D9 /* Enemy.swift in Sources */,
 				AE6465142266AD950098A8D9 /* GameScene.swift in Sources */,
 				AE6465162266AD950098A8D9 /* GameViewController.swift in Sources */,
 				AE64650E2266AD950098A8D9 /* AppDelegate.swift in Sources */,
+				AEC30646227AB58400484F1B /* MenuScene.swift in Sources */,
+				AEC3063E227AA3A000484F1B /* Powerups.swift in Sources */,
+				AEC3063C227A4FDA00484F1B /* GamePhysics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

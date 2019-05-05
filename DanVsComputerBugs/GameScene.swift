@@ -48,7 +48,7 @@ class GameScene: SKScene {
     var gameTimer = 0
     var currentWave = 1
     var currentMaxSpawnTime = 7
-    var nextPowerup = 5
+    var nextPowerup = 11
     
     let player = SKSpriteNode(imageNamed: "dan")
     let healthBarPos = SKSpriteNode(color: .green, size: CGSize(width: 80, height: 5))
